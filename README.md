@@ -1,4 +1,4 @@
-# Salary-Prediction
+# Salary Prediction
 Salary Prediction Project (Python)
 
 This is a project aimed for predicting future salaries of job postings based on salaries of current job postings. The language of choice to tackle this problem is Python.
