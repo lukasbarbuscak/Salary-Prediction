@@ -25,30 +25,40 @@ Before building models, I looked at the data using EDA and tried to make predict
 
 There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions (the only difference was having a major or not having a major). However, when it comes to job type, industry, and degree, the mean differences were bigger, and appeared to be significant in general, so I created boxplots for those categorical variables:
 
+
 ![salary_by_jobtype](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_jobtype.PNG)
 
 ![salary_by_industry](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_industry.PNG)
 
 ![salary_by_degree](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_degree.PNG)
 
+
 Generally, not surprisingly, CEO positions have the highest salary, and janitor positions have the lowest salary. There are differences between industries, with oil and finance being the with the highest mean, and service and education the lowest. Also, in general, more education (represented by the degree obtained) means better pay.
 
 I also checked the distributions of each categorical variable, and found that this dataset seemed extremely balanced in terms of distribution of each categorical variable. The job type count was roughly the same for all job types, there was only slightly more people with no major/without post-secondary education in the dataset than their counterparts, and all industries and companies were represented roughly equally. As an example:
 
 
+
 ![countplot](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/countplot.PNG)
+
+
 
 After exploring the categorical variables and their relationships to the salary variable, I took a closer look at numerical variables. Firstly, I was curious about the distribution of the numerical variables.
 
 
+
 ![num_distributions](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/num_distributions.PNG)
+
+
 
 The distance from the major city seems very similar for all the observations, and shows a uniform distribution. The salary graph shows slight skewness to the right, but the shape overall follows normal distribution. The years of experience variable shows again a uniform shape, suggesting once again a balanced dataset.
 
 Lastly, I wanted to explore the nature of the relationship between salary and other numerical variables. Salaries generally decrease with larger distance from the major city, and they tend to increase with years of experience.
 
+
 ![exp_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/exp_salary.PNG) 
 ![distance_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/distance_salary.PNG)
+
 
 ## Modeling
 
