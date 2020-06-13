@@ -23,7 +23,9 @@ Even though the data had some visible outliers when it came it salary, a closer 
 ## Exploratory Data Analysis
 Before building models, I looked at the data using EDA and tried to make predictions about the relationships between the variables. First, I checked if there are any differences between groups of data. When it comes to mean differences between the groups and distances/years of experience, there were either very small, or none at all.
 
-There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions. However, when it comes to job type, industry, and degree, the mean differences were bigger:
+There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions. However, when it comes to job type, industry, and degree, the mean differences were bigger, and appeared to be significant in general:
+
+
 
 
 
