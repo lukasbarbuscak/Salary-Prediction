@@ -25,8 +25,11 @@ Before building models, I looked at the data using EDA and tried to make predict
 
 There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions. However, when it comes to job type, industry, and degree, the mean differences were bigger, and appeared to be significant in general:
 
+![salary_by_jobtype](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_jobtype.PNG)
 
+![salary_by_industry](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_industry.PNG)
 
+![salary_by_degree](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_degree.PNG)
 
 
 
