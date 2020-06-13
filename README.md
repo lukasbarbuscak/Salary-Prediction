@@ -69,7 +69,9 @@ I have summarized the results in the following table:
 | Gradient Boosting  | 356.896  |
 
 Gradient boosting provided the best result. I saved the model with the following parameters: 
-```GradientBoostingRegressor(alpha=0.9, ccp_alpha=0.0, criterion='friedman_mse',
+
+```
+GradientBoostingRegressor(alpha=0.9, ccp_alpha=0.0, criterion='friedman_mse',
                           init=None, learning_rate=0.1, loss='ls', max_depth=5,
                           max_features=None, max_leaf_nodes=None,
                           min_impurity_decrease=0.0, min_impurity_split=None,
@@ -78,3 +80,6 @@ Gradient boosting provided the best result. I saved the model with the following
                           n_iter_no_change=None, presort='deprecated',
                           random_state=None, subsample=1.0, tol=0.0001,
                           validation_fraction=0.1, verbose=0, warm_start=False)
+```
+I then proceeded to scoring the test dataset using the saved model, and I saved the predictions. As the last step, I wanted to know which features were the most important in the model. Job type, experience, distance, and industry played the most important role in the model. Graphically:
+
