@@ -40,3 +40,10 @@ I also checked the distributions of each categorical variable, and found that th
 
 After exploring the categorical variables and their relationships to the salary variable, I took a closer look at numerical variables. Firstly, I was curious about the distribution of the numerical variables.
 
+
+![num_distributions](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/num_distributions.PNG)
+
+The distance from the major city seems very similar for all the observations, and shows a uniform distribution. The salary graph shows slight skewness to the right, but the shape overall follows normal distribution. The years of experience variable shows again a uniform shape, suggesting once again a balanced dataset.
+
+Lastly, I wanted to explore the nature of the relationship between salary and other numerical variables.
+
