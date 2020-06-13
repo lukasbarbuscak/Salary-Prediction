@@ -14,4 +14,5 @@ My data contains one million observations, and variables included are:
 - distance: number of miles from major city
 - salary: posted salary in a job posting
 
-Although the data I got was relatively clean, I had to delete 5 observations which had salary listed as 0, and check for potential outliers. 
+Although the data I got was relatively clean, I had to delete 5 observations which had salary listed as 0, and check for potential outliers. The boxplot of the salary variable looks like this:
+![alt tag](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_outliers.PNG)
