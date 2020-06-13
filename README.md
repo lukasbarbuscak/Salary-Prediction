@@ -5,8 +5,13 @@ How are salaries for specific job positions determined? Is it simply based on ex
 
 ## Data Cleaning
 My data contains one million observations, and variables included are:
-- company ID number
-- job type
+- company ID number: each posting has information on which company has posted the vacancy
+- job type: based on seniority, such as CEO, CFO, or junior
+- degree: college degree required for a job
+- major: university major included in job description
+- industry: general industry of the company
+- experience: number of years of experience required for the given job and job type
+- distance: number of miles from major city
+- salary: posted salary in a job posting
 
-
-Although the data I have got is relatively clean, 
+Although the data I got was relatively clean, I had to delete 5 observations which had salary listed as 0, and check for potential outliers. 
