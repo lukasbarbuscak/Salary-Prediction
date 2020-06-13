@@ -62,7 +62,9 @@ I chose three models that had a potential to improve this MSE:
 I have summarized the results in the following table:
 
 | Model  | MSE |
-|:---:| |:---:|
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Baseline  | 1498.837  |
+| Linear Regression  | 384.487  |
+| Decision Tree  | 701.008  |
+| Gradient Boosting  | 356.896  |
+
