@@ -17,3 +17,7 @@ My data contains one million observations, and variables included are:
 Although the data I got was relatively clean, I had to delete 5 observations which had salary listed as 0, and check for potential outliers. The boxplot of the salary variable looks like this:
 
 ![salary_outliers](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_outliers.PNG)
+
+Even though the data had some visible outliers when it came it salary, a closer look at the data showed no errors. These jobs paid better because of being senior positions in high-pay industries.
+
+The data also contained some duplicate values, and I simply dropped them. The final shape of the dataset is 999809 rows and 8 columns.
