@@ -83,3 +83,7 @@ GradientBoostingRegressor(alpha=0.9, ccp_alpha=0.0, criterion='friedman_mse',
 ```
 I then proceeded to scoring the test dataset using the saved model, and I saved the predictions. As the last step, I wanted to know which features were the most important in the model. Job type, experience, distance, and industry played the most important role in the model. Graphically:
 
+![importances](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/importances.PNG)
+
+## Conclusion
+To sum up, I have developed a model that is predicting future salaries of job postings based on salaries of current job postings. After performing the exploratory data analysis, I fitted three models and compared their mean squared errors, basically comparing how well the models performed comparing to the baseline model, and also each other. The model performing the best with the train data was the gradient boosting model. I saved the model, scored the test data with it, and saved the results of the prediction in a csv file. I also included the analysis of feature importances, and saved it in a separate file.
