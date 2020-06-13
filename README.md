@@ -1,6 +1,5 @@
-# Salary Prediction
-Salary Prediction Project (Python)
+# Predicting Salaries of Future Job Postings
 
-This is a project aimed for predicting future salaries of job postings based on salaries of current job postings. The language of choice to tackle this problem is Python.
+## Introduction
+How are salaries for specific job positions determined? Is it simply based on experience and type of position of potential job applicants, or is there more to it? I would like to investigate this question using data on present job postings, and their attached salaries. After exploring the data, I will develop a model and plot which features are the most important in determining salaries of newly posted posittions. The language of choice to tackle this problem is Python, using packages such as pandas, numpy, matplotlib, seaborn, and sklearn.
 
-After performing the exploratory data analysis, I fitted three models and compared their mean squared errors, basically comparing how well the models performed comparing to the baseline model, and also each other. The model performing the best with the train data was the gradient boosting model. I saved the model, scored the test data with it, and saved the results of the prediction in a csv file. I also included the analysis of feature importances, and saved it in a separate file.
