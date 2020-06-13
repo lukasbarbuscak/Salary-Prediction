@@ -23,7 +23,7 @@ Even though the data had some visible outliers when it came it salary, a closer 
 ## Exploratory Data Analysis
 Before building models, I looked at the data using EDA and tried to make predictions about the relationships between the variables. First, I checked if there are any differences between groups of data. When it comes to mean differences between the groups and distances/years of experience, there were either very small, or none at all.
 
-There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions. However, when it comes to job type, industry, and degree, the mean differences were bigger, and appeared to be significant in general:
+There seemed to be no mean differences in salary between postings of different companies, and small differences between majors required for the positions (the only difference was having a major or not having a major). However, when it comes to job type, industry, and degree, the mean differences were bigger, and appeared to be significant in general, so I created boxplots for those categorical variables:
 
 ![salary_by_jobtype](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_jobtype.PNG)
 
@@ -31,5 +31,5 @@ There seemed to be no mean differences in salary between postings of different c
 
 ![salary_by_degree](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/salary_by_degree.PNG)
 
-
+Generally, not surprisingly, CEO positions have the highest salary, and janitor positions have the lowest salary. There are differences between industries, with oil and finance being the with the highest mean, and service and education the lowest. Also, in general, more education (represented by the degree obtained) means better pay.
 
