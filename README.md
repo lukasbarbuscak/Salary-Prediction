@@ -50,3 +50,19 @@ Lastly, I wanted to explore the nature of the relationship between salary and ot
 ![exp_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/exp_salary.PNG) 
 ![distance_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/distance_salary.PNG)
 
+## Modeling
+
+Because this is a regression problem with the dependent variable being a continuous one, MSE was a simple and fitting choice to use as a metric for my model. As my baseline model, I used a "difference from average salary", since every ML model should be able to outperform differences from the mean. The MSE for my baseline model was 1498.837. 
+
+I chose three models that had a potential to improve this MSE:
+- Linear Regression: as seen in the EDA, the data follows a relatively linear shape
+- Decision Trees: just like linear regression, it is a basic and fast approach for modeling, and performs well with linear relationships
+- Gradient Boosting: because this is a regression problem, gradient boosting offers great way for weak learners to improve their performance, and is often used to minimize the MSE
+
+I have summarized the results in the following table:
+
+| Model  | MSE |
+|:---:| |:---:|
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
