@@ -45,5 +45,8 @@ After exploring the categorical variables and their relationships to the salary 
 
 The distance from the major city seems very similar for all the observations, and shows a uniform distribution. The salary graph shows slight skewness to the right, but the shape overall follows normal distribution. The years of experience variable shows again a uniform shape, suggesting once again a balanced dataset.
 
-Lastly, I wanted to explore the nature of the relationship between salary and other numerical variables.
+Lastly, I wanted to explore the nature of the relationship between salary and other numerical variables. Salaries generally decrease with larger distance from the major city, and they tend to increase with years of experience.
+
+![exp_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/exp_salary.PNG) 
+![distance_salary](https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/distance_salary.PNG)
 
