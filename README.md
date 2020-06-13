@@ -35,5 +35,5 @@ Generally, not surprisingly, CEO positions have the highest salary, and janitor 
 
 I also checked the distributions of each categorical variable, and found that this dataset seemed extremely balanced in terms of distribution of each categorical variable. The job type count was roughly the same for all job types, there was only slightly more people with no major/without post-secondary education in the dataset than their counterparts, and all industries and companies were represented roughly equally. As an example:
 
-
+![countplot](!https://github.com/lukasbarbuscak/Salary-Prediction/blob/master/images/countplot.PNG)
 
